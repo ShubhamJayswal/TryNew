@@ -68,7 +68,7 @@ height: 36em;
 
 width:50%;
 
-float:left;
+float:right;
 
 
 
@@ -177,12 +177,11 @@ padding-left: 13.3086876155268%;
 }
 
 .info_third_block{
-  float: right;
+  float: left;
   background-image: url("CheckBlack.jpg");
   position: relative;
   height: 36em;
   width: 50%;
-
 }
 
 
