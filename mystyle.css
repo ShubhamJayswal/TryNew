@@ -59,6 +59,23 @@ float:left;
 
 }
 
+
+
+.image_third_block{
+
+
+height: 36em;
+
+width:50%;
+
+float:left;
+
+
+
+}
+
+
+
 .carousel-inner > .item img{
    width:100% !important;
    height:100% !important;
@@ -109,6 +126,18 @@ height: 100%;
 
 }
 
+.third_block{
+  margin-left:15%;
+  margin-right:15%;
+
+
+  height: 36em;
+
+}
+
+
+
+
 div.information{
 
 font-family: Times, "Times New Roman", Georgia, serif;
@@ -145,7 +174,14 @@ padding-left: 13.3086876155268%;
   height: 36em;
   width: 50%;
 
+}
 
+.info_third_block{
+  float: right;
+  background-image: url("CheckBlack.jpg");
+  position: relative;
+  height: 36em;
+  width: 50%;
 
 }
 
