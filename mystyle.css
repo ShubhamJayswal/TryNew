@@ -1,0 +1,237 @@
+.page{
+
+
+
+}
+
+
+
+
+@viewport{
+  zoom:1.0;
+  width:device-width;
+}
+
+nav.navbar{
+
+  margin-bottom: 0px;
+  height: 7.15em;
+  border-style: solid;
+
+}
+
+
+
+
+div.jumbotron{
+  margin-left: 15%;
+  margin-right:15%;
+  margin-bottom: 0px;
+  opacity: 0.93;
+  border-radius: 0!important;
+
+
+}
+
+
+.image{
+
+
+height: 35.75em;
+width: 42.64392324093817%;
+
+border-style: solid;
+border-color: red;
+
+}
+
+img{
+
+width:100%;
+height: 100%;
+
+
+}
+
+.image{
+
+  float:left;
+
+}
+
+.two-blocks{
+  margin-left:15%;
+  margin-right:15%;
+  border-style:solid;
+  border-color: yellow;
+  height: 38em;
+}
+
+
+div.information{
+
+font-family: Times, "Times New Roman", Georgia, serif;
+color:darkslategrey;
+
+opacity:0.97;
+height: 100%;
+width: 100%;
+
+
+
+}
+
+.info{
+
+  float: left;
+  background-image: url("black_dell.jpg");
+  position: relative;
+  border-style:solid;
+  border-color: blue;
+
+
+  height: 35.75em;
+  width: 57.33475479744136%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p.Name{
+}
+
+p.Category{
+  font-size: 15px;
+  margin-bottom: 30px;
+
+}
+
+p.phone{
+  margin-bottom:-10px;
+  font-size: 15px;
+}
+p.number{
+
+ margin-bottom:30px;
+ font-size:17px;
+}
+
+p.myemail{
+  font-size:15px;
+  margin-bottom: 30px;
+}
+
+p.email{
+  font-size:17px;
+
+  margin-bottom:-10px;
+}
+
+
+
+p.myaddress{
+  font-size:15px;
+  margin-bottom: 30px;
+}
+
+p.Address{
+  font-size: 17px;
+  margin-bottom:-10px;
+
+}
+
+
+p.mydob{
+  font-size: 17px;
+  margin-top:-10px;
+}
+
+p.DOB{
+  font-size: 15px;
+}
+
+
+.navbar-nav >li a {
+
+margin-top: 18px;
+font-size: 20px;
+
+}
+
+a[target]{
+
+font-size: 40px;
+font-family: Times, "Times New Roman", Georgia, serif;
+}
+
+.container-fluid > .navbar-header{
+  margin-top: 20px;
+  margin-left: 45px !important;
+}
+
+
+nav.navbar{
+  background-color:#362166;
+  opacity: 0.93;
+}
+
+p.text-info{
+
+ font-style: oblique;
+ font-family: Times, "Times New Roman", Georgia, serif;
+
+
+ overflow: hidden; /* Ensures the content is not revealed until the animation */
+ border-right: .15em solid orange; /* The typwriter cursor */
+ white-space: nowrap; /* Keeps the content on a single line */
+ margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+ letter-spacing: .10em; /* Adjust as needed */
+ animation:
+   typing 4.0s steps(40, end),
+   blink-caret .75s step-end infinite;
+
+}
+
+.navbar-right
+{
+
+font-family: Times, "Times New Roman", Georgia, serif;
+}
+
+body{
+
+  background-image: url("chemistry.jpg");
+
+}
+
+
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+h5:hover{
+
+  font-size:20px !important;
+}
