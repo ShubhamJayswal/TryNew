@@ -275,7 +275,9 @@ font-family: Times, "Times New Roman", Georgia, serif;
 body{
 
   background-image: url("Wallpaper3.jpg");
+  background-repeat:no-repeat;
 
+  background-size:cover;
 }
 
 
