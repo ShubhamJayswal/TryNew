@@ -16,7 +16,7 @@ nav.navbar{
 
   margin-bottom: 0px;
   height: 7.15em;
-  border-style: solid;
+
 
 }
 
@@ -37,13 +37,45 @@ div.jumbotron{
 .image{
 
 
-height: 35.75em;
+height: 36em;
 width: 42.64392324093817%;
 
-border-style: solid;
-border-color: red;
+
+
+
 
 }
+
+.image_second_block{
+
+
+height: 36em;
+
+width:50%;
+
+float:left;
+
+
+
+}
+
+.carousel-inner > .item img{
+   width:100% !important;
+   height:100% !important;
+}
+
+.item{
+  width: 100%;
+  height: 36em;
+
+
+
+}
+
+
+
+
+
 
 img{
 
@@ -62,11 +94,20 @@ height: 100%;
 .two-blocks{
   margin-left:15%;
   margin-right:15%;
-  border-style:solid;
-  border-color: yellow;
-  height: 38em;
+
+  border-bottom: 0px !important;
+  height: 36em;
+
 }
 
+.second_block{
+  margin-left:15%;
+  margin-right:15%;
+
+
+  height: 36em;
+
+}
 
 div.information{
 
@@ -76,7 +117,7 @@ color:darkslategrey;
 opacity:0.97;
 height: 100%;
 width: 100%;
-
+padding-left: 13.3086876155268%;
 
 
 }
@@ -84,28 +125,29 @@ width: 100%;
 .info{
 
   float: left;
-  background-image: url("black_dell.jpg");
+  background-image: url("CheckBlack.jpg");
+  /*background-color: #646b74;*/
   position: relative;
-  border-style:solid;
-  border-color: blue;
 
 
-  height: 35.75em;
-  width: 57.33475479744136%;
 
+
+  height: 36em;
+  width: 57.20338983050847%;
+
+  border-radius: 0px !important;
 }
 
+.info_second_block{
+  float: right;
+  background-image: url("black_dell.jpg");
+  position: relative;
+  height: 36em;
+  width: 50%;
 
 
 
-
-
-
-
-
-
-
-
+}
 
 
 
@@ -188,6 +230,27 @@ nav.navbar{
   opacity: 0.93;
 }
 
+
+.navbar-right
+{
+
+font-family: Times, "Times New Roman", Georgia, serif;
+}
+
+body{
+
+  background-image: url("chemistry.jpg");
+
+}
+
+
+h5:hover{
+
+  font-size:20px !important;
+}
+
+
+
 p.text-info{
 
  font-style: oblique;
@@ -205,19 +268,6 @@ p.text-info{
 
 }
 
-.navbar-right
-{
-
-font-family: Times, "Times New Roman", Georgia, serif;
-}
-
-body{
-
-  background-image: url("chemistry.jpg");
-
-}
-
-
 
 /* The typing effect */
 @keyframes typing {
@@ -228,10 +278,43 @@ body{
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: orange; }
+  50% { border-color: transparent; }
 }
 
-h5:hover{
 
-  font-size:20px !important;
+h3.edu{
+
+color: white !important;
+font-size: 60px;
+margin-top: -20px;
+font-family: "Times Header";
+}
+
+h3.exp{
+
+  color: white !important;
+  font-size: 60px;
+  margin-top: -20px;
+  font-family: "Times Header";
+}
+
+.second{
+  margin-top:0px !important;
+  background-color:#362166  !important;
+  height: 7.936em;
+  opacity: 0.96 !important;
+}
+
+
+.third{
+  margin-top:0px;
+  background-color:#547D83 !important;
+  height: 7.936em;
+  opacity: 0.96 !important;
+}
+
+.educlass{
+
+
+
 }
