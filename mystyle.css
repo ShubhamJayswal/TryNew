@@ -151,6 +151,39 @@ padding-left: 13.3086876155268%;
 
 }
 
+div.information2{
+
+font-family: Times, "Times New Roman", Georgia, serif;
+color:darkslategrey;
+
+opacity:0.97;
+height: 100%;
+width: 100%;
+padding-left: 13.3086876155268%;
+padding-top: 10.86138613861386%;
+
+
+}
+
+
+div.information3{
+
+font-family: Times, "Times New Roman", Georgia, serif;
+color:darkslategrey;
+
+opacity:0.97;
+height: 100%;
+width: 100%;
+padding-left: 9.3086876155268%;
+padding-top: 7.86138613861386%;
+
+
+}
+
+
+
+
+
 .info{
 
   float: left;
@@ -274,7 +307,7 @@ font-family: Times, "Times New Roman", Georgia, serif;
 
 body{
 
-  background-image: url("Wallpaper3.jpg");
+  background-image: url("Wallpaper4.jpg");
   background-repeat:no-repeat;
 
   background-size:cover;
