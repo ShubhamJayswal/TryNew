@@ -335,7 +335,7 @@ p.text-info{
  opacity:100 !important;
  font-style: oblique;
  font-family: Times, "Times New Roman", Georgia, serif;
- color: #2caef1;
+ color: #3612ef;
 
  overflow: hidden; /* Ensures the content is not revealed until the animation */
  border-right: .15em solid orange; /* The typwriter cursor */
