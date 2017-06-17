@@ -31,9 +31,14 @@ div.jumbotron{
   opacity: 0.40 ;
   height: 8em;
   border-radius: 0!important;
-  margin-top: 2.2em;
+ 
   
 
+}
+
+.one{
+  
+   margin-top: 2.2em;
 }
 
 
